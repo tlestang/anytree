@@ -23,11 +23,8 @@ class AbstractStyle(object):
         Tree Render Style.
 
         Args:
-
             vertical: Sign for vertical line.
-
             cont: Chars for a continued branch.
-
             end: Chars for the last branch.
         """
         super(AbstractStyle, self).__init__()
